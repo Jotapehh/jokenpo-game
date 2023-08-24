@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jokenpô</h1>
+    </header>
+    <main>
+        <section id="secPlayer">
+            <p>Jogador( <span id="jogadorName">Você</span> )</p>
+            <img src="Images/Player/papelJ.png" alt="papel-player" id="papelP-img" title="Papel">
+            <img src="Images/Player/pedraJ.png" alt="pedra-player" id="pedraP-img" title="Pedra">
+            <img src="Images/Player/tesouraJ.png" alt="tesoura-player" id="tesouraP-img" title="Tesoura">
+            <p id="pontosPlayer">0</p>
+        </section>
+        <section id="secEnemy">
+            <p>Inimigo( Máquina )</p>
+            <img src="Images/Computer/papelC.png" alt="papel-computer" id="papelE-img">
+            <img src="Images/Computer/pedraC.png" alt="pedra-computer" id="pedraE-img">
+            <img src="Images/Computer/tesouraC.png" alt="tesoura-computer" id="tesouraE-img">
+            <p id="pontosEnemy">0</p>
+        </section>
+        <section id="saida">
+            <button onclick="rodar()">Rodar</button>
+            <p id="msg"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Ouh, aproveita e <a href="https://www.instagram.com/jotapeh.js" type="external" target="_blank">me segue aí insta</a>, pow</p>
+        <p id="copy">jotapeh&copy;2023</p>
+    </footer>
+    <script src="js/logic.js"></script>
+    <script src="js/nickname.js"></script>
+</body>
+</html>
